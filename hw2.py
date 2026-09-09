@@ -14,12 +14,15 @@ final_total = total_sugar + total_oil + total_rice;
 print(final_total)
 final_total=int(final_total);
 print(final_total);
-final_total=float(final_total);
+final_total=str(final_total);
+print(final_total);
+final_total=int(final_total);
 print(final_total);
 import random
 delivery_charge=random.randrange(5,10)
 print(delivery_charge);
 final_bill=final_total+delivery_charge;
 print(final_bill ,"is the total bill");
+
 
 
