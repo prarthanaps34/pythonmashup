@@ -27,7 +27,7 @@ print(length);
 
 print('asha' in uiux or new_datascience or web_development);
 
-first_participants=(web_development[:1],new_datascience[:1],uiux[:1]);
+first_participants=(web_development[0],new_datascience[0],uiux[0]);
 print(first_participants);
  
 
