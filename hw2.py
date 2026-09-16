@@ -1,28 +1,23 @@
-rice_price=45;
-sugar_price=40;
-oil_price=130;
-rice=3;
-sugar=2.5
-oil=1.8
-total_rice = rice_price*rice;
-print(total_rice)
-total_sugar = sugar_price*sugar;
-print(total_sugar)
-total_oil = oil_price*oil;
-print(total_oil)
-final_total = total_sugar + total_oil + total_rice;
-print(final_total)
-final_total=int(final_total);
-print(final_total);
-final_total=str(final_total);
-print(final_total);
-final_total=int(final_total);
-print(final_total);
-import random
-delivery_charge=random.randrange(5,10)
-print(delivery_charge);
-final_bill=final_total+delivery_charge;
-print(final_bill ,"is the total bill");
+paragraph = """
+Python is a popular programming language.
+This Python course teaches basic programming concepts,
+variables, loops, functions, and data handling.
+It is a beginner-friendly course for students.
+"""
 
+print("Length of paragraph:", len(paragraph))
+print("First character:", paragraph[0])
+print("Last character:", paragraph[-1])
+print("Preview:", paragraph[:50])
+paragraph = paragraph.replace("Python", "PYTHON")
+print(paragraph)
+paragraph = paragraph.lower()
+paragraph = paragraph.strip()
+words = paragraph.split()
+print("Words:", words)
+print(paragraph.count("course"))
 
+print("The course description is {} characters long and has {} words.".format(
+    len(paragraph), len(words)
+))
 

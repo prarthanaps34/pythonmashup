@@ -3,7 +3,7 @@ frontend = {"Anu", "Rahul", "Meera", "Arun"}
 
 backend = {"Rahul", "Meera", "Vishnu", "Asha"}
 
-backend.add("Kiran")
+backend.add("Kiran")  
 frontend.remove("Arun")
 
 both_courses = frontend & backend
