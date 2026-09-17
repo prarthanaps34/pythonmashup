@@ -4,7 +4,7 @@ class Vehicle:
         self._base_rate = base_rate
 
     def display_details(self):
-        return "Vehicle ID: {}, Base Rate: {:.2f}".format(
+        return "Vehicle ID: {}, Base Rate: {}".format(
             self._vehicle_id, self._base_rate
         )
 
